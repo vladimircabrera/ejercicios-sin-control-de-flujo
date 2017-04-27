@@ -13,7 +13,7 @@ int main (void)
   puts (MSJ_ING_VAR_ALTURA);
   scanf ("%f", &ladoB);
   
-  printf ("%s %f\n", MSJ_PERITRO, ladoA + ladoB);
+  printf ("%s %f\n", MSJ_PERIMETRO, ladoA + ladoB);
   
   return 0;
   

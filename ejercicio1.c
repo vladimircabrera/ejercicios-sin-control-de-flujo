@@ -4,6 +4,7 @@
 # define MSJ_ING_VAR_ALTURA   "Ingrese el valor de la altura del rectangulo"
 # define MSJ_PERIMETRO        "El perimetro del rectangulo es:"
 
+/* FALTA VALIDAR LOS VALORES INGRESADOS */
 int main (void)
 {
   float ladoA, ladoB;

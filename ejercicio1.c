@@ -7,16 +7,16 @@
 /* FALTA VALIDAR LOS VALORES INGRESADOS */
 int main (void)
 {
-  float ladoA, ladoB;
-  
+  float base, altura;
+
   puts (MSJ_ING_VAR_BASE);
-  scanf ("%f", &ladoA);
+  scanf ("%f", &base);
   puts (MSJ_ING_VAR_ALTURA);
-  scanf ("%f", &ladoB);
-  
-  printf ("%s %f\n", MSJ_PERIMETRO, ladoA + ladoB);
-  
+  scanf ("%f", &altura);
+
+  printf ("%s %.2f\n", MSJ_PERIMETRO, base + altura);
+
   return 0;
-  
+
 }
 
